@@ -1,3 +1,37 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body {
+	margin: auto;
+	padding: 0;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: space-around;
+	justify-content: center;
+/*	align-items: center; */
+	border: 1px solid #282828;
+	margin: auto;
+	padding: 0;
+}
+
+.box {
+	margin: 0;
+	padding: 0;
+	width: 300px;
+/*	flex: 1; */}
+
+.viridian {
+	background-color: #40826D;
+/*	flex: 2; */}
+
+.cobalt {
+	background-color: #0047ab;
+/*	flex: 3; */}
+
+.crimson {
+	background-color: #dc143c;
+/*	flex: 1; */}

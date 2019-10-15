@@ -7,31 +7,36 @@ body {
 }
 
 .container {
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-	justify-content: space-around;
-	justify-content: center;
-/*	align-items: center; */
-	border: 1px solid #282828;
-	margin: auto;
-	padding: 0;
+	display: grid;
+	width: 100vw;
+	grid-template-columns: 1 fr 1 fr;
+	grid-template-rows: 1 fr 1 fr;
 }
 
 .box {
 	margin: 0;
 	padding: 0;
-	width: 300px;
-/*	flex: 1; */}
+	border: 1px solid black;
+	justify-content: center;
+}
 
 .viridian {
 	background-color: #40826D;
-/*	flex: 2; */}
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row: 1;
+}
 
 .cobalt {
 	background-color: #0047ab;
-/*	flex: 3; */}
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row: 2;
+}
 
 .crimson {
 	background-color: #dc143c;
-/*	flex: 1; */}
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row: 2;
+				}
